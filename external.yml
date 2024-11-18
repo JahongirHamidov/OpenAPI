@@ -1,0 +1,13 @@
+components:
+  schemas:  
+    New:
+      type: object
+      properties:
+        newId:
+          type: string
+          example: 345
+          description: category identifier
+        newName: 
+          type: string
+          example: Electronics
+          description: name of the category       
